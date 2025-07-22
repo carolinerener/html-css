@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <Style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: dimgray;
+        }
+
+        header {
+        
+            background-color: white;
+            padding: 1px;
+            margin: 10px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        footer{
+            background-color: black;
+            color: whitesmoke;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        article {
+            background-color: gray;
+        }
+        article> aside{
+            background-color: rgb(95, 95, 95);
+        }
+
+        nav{
+            background-color: rgb(68, 68, 68);
+            padding: 3px;
+        }
+        nav>a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+
+        }
+
+        nav>a:hover {
+            text-decoration: underline;
+            margin-right: 30px;
+        }
+        
+    </Style>
+</head>
+<body>
+       
+  <header>
+       <h1>meu site</h1>
+       <nav>
+         <a href="#">link</a>
+         <a href="#">link</a>
+         <a href="#">link</a>
+         <a href="#">link</a>
+         <a href="#">link</a>
+
+       </nav>
+  </header>
+  <main>
+      <section id="Assuntos">
+
+      </section>
+      <section id="Noticias">
+        <article>
+            <h2> Noticia sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eum corporis corrupti est consequuntur? Dolorem molestiae, in nam ullam sed modi, exercitationem, itaque voluptates laborum alias cumque odit eaque sunt.</p>
+             <aside>
+                <p>Artigo escrito por Felipe.</p>
+             </aside>
+        </article>
+        <article>
+
+        </article>
+         
+      </section>
+  </main>
+  <footer>
+ Desenvolvido por Caroline Rener.
+  </footer>
+</body>
+</html>
